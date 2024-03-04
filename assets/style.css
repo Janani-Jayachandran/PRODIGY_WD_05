@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:100px;
+    background-color: rgb(7, 32, 39);
+}
+
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#temp{
+    text-align: center;
+}
+
+#temp #temp-unit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: rgb(7, 7, 7);
+}
+
+ #climate{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+
+ #location{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: rgb(7, 7, 7);
+    text-align: center;
+}
+
+#temp-icon{
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+main{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #97eef1;
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+}
